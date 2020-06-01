@@ -1,0 +1,10 @@
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\bin\Debug\Lab-08.exe.config
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\bin\Debug\Lab-08.exe
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\bin\Debug\Lab-08.pdb
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab-08.csprojAssemblyReference.cache
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab_08.Properties.Resources.resources
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab-08.csproj.GenerateResource.cache
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab-08.exe
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab-08.pdb
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab_08.Form1.resources
+C:\Users\mathi\OneDrive\Escritorio\laboratorio-08-mathiascordova\Lab-08\Lab-08\obj\Debug\Lab_08.Form2.resources
