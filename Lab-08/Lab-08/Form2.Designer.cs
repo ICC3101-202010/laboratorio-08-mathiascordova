@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.rtF2 = new System.Windows.Forms.RichTextBox();
-            this.btShow = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -54,20 +53,10 @@
             this.rtF2.TabIndex = 2;
             this.rtF2.Text = "";
             // 
-            // btShow
-            // 
-            this.btShow.Location = new System.Drawing.Point(20, 84);
-            this.btShow.Name = "btShow";
-            this.btShow.Size = new System.Drawing.Size(75, 23);
-            this.btShow.TabIndex = 3;
-            this.btShow.Text = "Show";
-            this.btShow.UseVisualStyleBackColor = true;
-            this.btShow.Click += new System.EventHandler(this.btShow_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(94, 87);
+            this.label2.Location = new System.Drawing.Point(46, 93);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(257, 17);
             this.label2.TabIndex = 4;
@@ -81,7 +70,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(363, 526);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btShow);
             this.Controls.Add(this.rtF2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -98,7 +86,6 @@
         #endregion
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox rtF2;
-        private System.Windows.Forms.Button btShow;
         private System.Windows.Forms.Label label2;
     }
 }

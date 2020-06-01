@@ -24,12 +24,10 @@ namespace Lab_08
         public void GetLoc(string loc)
         {
             allLocales = loc;
-        }
-
-        private void btShow_Click(object sender, EventArgs e)
-        {
             rtF2.Text = allLocales;
             label2.Visible = true;
         }
+
+        
     }
 }
