@@ -19,11 +19,12 @@ namespace Lab_08
         {
             if (excTables)
             {
-                return ("Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Mesas exclusivas: Si" + "\n");
+                return ("RESTAURANT" + "\n" + "Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Mesas exclusivas: Si" + "\n");
             }
             else
             {
-                return ("Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Mesas exclusivas: No" + "\n");
+                return ("RESTAURANT" + "\n" + "Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Mesas exclusivas: No" + "\n");
+
             }
         }
     }

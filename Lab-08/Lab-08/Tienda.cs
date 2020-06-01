@@ -31,7 +31,7 @@ namespace Lab_08
                 }
             }
 
-            return ("Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Tienda de: " + cats+ "\n");
+            return ("TIENDA"+"\n"+"Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Tienda de: " + cats+ "\n");
         }
     }
 }

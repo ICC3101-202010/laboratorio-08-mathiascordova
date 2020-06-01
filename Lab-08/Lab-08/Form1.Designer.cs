@@ -33,6 +33,62 @@
             this.verLocales = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelCreate = new System.Windows.Forms.Panel();
+            this.panelCine = new System.Windows.Forms.Panel();
+            this.labelCine = new System.Windows.Forms.Label();
+            this.BackCine = new System.Windows.Forms.Button();
+            this.btEnterCine = new System.Windows.Forms.Button();
+            this.tbCineSalas = new System.Windows.Forms.TextBox();
+            this.tbCineHor = new System.Windows.Forms.TextBox();
+            this.tbCineID = new System.Windows.Forms.TextBox();
+            this.tbCineOwner = new System.Windows.Forms.TextBox();
+            this.tbCineName = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panelRec = new System.Windows.Forms.Panel();
+            this.labelRec = new System.Windows.Forms.Label();
+            this.tbRecOwner = new System.Windows.Forms.TextBox();
+            this.tbRecID = new System.Windows.Forms.TextBox();
+            this.tbRecType = new System.Windows.Forms.TextBox();
+            this.tbRecHor = new System.Windows.Forms.TextBox();
+            this.tbRecName = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.EnterRec = new System.Windows.Forms.Button();
+            this.BackRec = new System.Windows.Forms.Button();
+            this.panelResto = new System.Windows.Forms.Panel();
+            this.labelRest = new System.Windows.Forms.Label();
+            this.RestBack = new System.Windows.Forms.Button();
+            this.RestEnter = new System.Windows.Forms.Button();
+            this.cbRestExc = new System.Windows.Forms.CheckBox();
+            this.tbRestOwner = new System.Windows.Forms.TextBox();
+            this.tbRestHor = new System.Windows.Forms.TextBox();
+            this.tbRestID = new System.Windows.Forms.TextBox();
+            this.tbRestName = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.panelTienda = new System.Windows.Forms.Panel();
+            this.labelTiendaCr = new System.Windows.Forms.Label();
+            this.backCrTienda = new System.Windows.Forms.Button();
+            this.CreateTiendaEnter = new System.Windows.Forms.Button();
+            this.tbTiendaOwner = new System.Windows.Forms.TextBox();
+            this.tbTiendaID = new System.Windows.Forms.TextBox();
+            this.tbTiendaCat = new System.Windows.Forms.TextBox();
+            this.tbTiendaHor = new System.Windows.Forms.TextBox();
+            this.tbTiendaName = new System.Windows.Forms.TextBox();
+            this.ownerTienda = new System.Windows.Forms.Label();
+            this.IDTienda = new System.Windows.Forms.Label();
+            this.horarioTienda = new System.Windows.Forms.Label();
+            this.catTienda = new System.Windows.Forms.Label();
+            this.nomTienda = new System.Windows.Forms.Label();
             this.salirCreate = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.crearRec = new System.Windows.Forms.Button();
@@ -46,68 +102,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.busqNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panelTienda = new System.Windows.Forms.Panel();
-            this.panelResto = new System.Windows.Forms.Panel();
-            this.panelRec = new System.Windows.Forms.Panel();
-            this.nomTienda = new System.Windows.Forms.Label();
-            this.catTienda = new System.Windows.Forms.Label();
-            this.horarioTienda = new System.Windows.Forms.Label();
-            this.IDTienda = new System.Windows.Forms.Label();
-            this.ownerTienda = new System.Windows.Forms.Label();
-            this.tbTiendaName = new System.Windows.Forms.TextBox();
-            this.tbTiendaHor = new System.Windows.Forms.TextBox();
-            this.tbTiendaCat = new System.Windows.Forms.TextBox();
-            this.tbTiendaID = new System.Windows.Forms.TextBox();
-            this.tbTiendaOwner = new System.Windows.Forms.TextBox();
-            this.CreateTiendaEnter = new System.Windows.Forms.Button();
-            this.backCrTienda = new System.Windows.Forms.Button();
-            this.labelTiendaCr = new System.Windows.Forms.Label();
-            this.panelCine = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.tbCineName = new System.Windows.Forms.TextBox();
-            this.tbCineOwner = new System.Windows.Forms.TextBox();
-            this.tbCineID = new System.Windows.Forms.TextBox();
-            this.tbCineHor = new System.Windows.Forms.TextBox();
-            this.tbCineSalas = new System.Windows.Forms.TextBox();
-            this.btEnterCine = new System.Windows.Forms.Button();
-            this.BackCine = new System.Windows.Forms.Button();
-            this.labelCine = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.tbRestName = new System.Windows.Forms.TextBox();
-            this.tbRestID = new System.Windows.Forms.TextBox();
-            this.tbRestHor = new System.Windows.Forms.TextBox();
-            this.tbRestOwner = new System.Windows.Forms.TextBox();
-            this.cbRestExc = new System.Windows.Forms.CheckBox();
-            this.RestEnter = new System.Windows.Forms.Button();
-            this.RestBack = new System.Windows.Forms.Button();
-            this.labelRest = new System.Windows.Forms.Label();
-            this.BackRec = new System.Windows.Forms.Button();
-            this.EnterRec = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.tbRecName = new System.Windows.Forms.TextBox();
-            this.tbRecHor = new System.Windows.Forms.TextBox();
-            this.tbRecType = new System.Windows.Forms.TextBox();
-            this.tbRecID = new System.Windows.Forms.TextBox();
-            this.tbRecOwner = new System.Windows.Forms.TextBox();
-            this.labelRec = new System.Windows.Forms.Label();
             this.panelCreate.SuspendLayout();
-            this.panelBusq.SuspendLayout();
-            this.panelTienda.SuspendLayout();
-            this.panelResto.SuspendLayout();
-            this.panelRec.SuspendLayout();
             this.panelCine.SuspendLayout();
+            this.panelRec.SuspendLayout();
+            this.panelResto.SuspendLayout();
+            this.panelTienda.SuspendLayout();
+            this.panelBusq.SuspendLayout();
             this.SuspendLayout();
             // 
             // createLocal
@@ -171,6 +171,554 @@
             this.panelCreate.Size = new System.Drawing.Size(801, 468);
             this.panelCreate.TabIndex = 4;
             this.panelCreate.Visible = false;
+            // 
+            // panelCine
+            // 
+            this.panelCine.Controls.Add(this.labelCine);
+            this.panelCine.Controls.Add(this.BackCine);
+            this.panelCine.Controls.Add(this.btEnterCine);
+            this.panelCine.Controls.Add(this.tbCineSalas);
+            this.panelCine.Controls.Add(this.tbCineHor);
+            this.panelCine.Controls.Add(this.tbCineID);
+            this.panelCine.Controls.Add(this.tbCineOwner);
+            this.panelCine.Controls.Add(this.tbCineName);
+            this.panelCine.Controls.Add(this.label9);
+            this.panelCine.Controls.Add(this.label8);
+            this.panelCine.Controls.Add(this.label7);
+            this.panelCine.Controls.Add(this.label6);
+            this.panelCine.Controls.Add(this.label5);
+            this.panelCine.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelCine.Location = new System.Drawing.Point(0, 0);
+            this.panelCine.Name = "panelCine";
+            this.panelCine.Size = new System.Drawing.Size(801, 468);
+            this.panelCine.TabIndex = 7;
+            this.panelCine.Visible = false;
+            // 
+            // labelCine
+            // 
+            this.labelCine.AutoSize = true;
+            this.labelCine.Location = new System.Drawing.Point(231, 360);
+            this.labelCine.Name = "labelCine";
+            this.labelCine.Size = new System.Drawing.Size(0, 17);
+            this.labelCine.TabIndex = 12;
+            this.labelCine.Visible = false;
+            // 
+            // BackCine
+            // 
+            this.BackCine.Location = new System.Drawing.Point(228, 410);
+            this.BackCine.Name = "BackCine";
+            this.BackCine.Size = new System.Drawing.Size(75, 23);
+            this.BackCine.TabIndex = 11;
+            this.BackCine.Text = "BACK";
+            this.BackCine.UseVisualStyleBackColor = true;
+            this.BackCine.Click += new System.EventHandler(this.BackCine_Click);
+            // 
+            // btEnterCine
+            // 
+            this.btEnterCine.Location = new System.Drawing.Point(434, 359);
+            this.btEnterCine.Name = "btEnterCine";
+            this.btEnterCine.Size = new System.Drawing.Size(75, 23);
+            this.btEnterCine.TabIndex = 10;
+            this.btEnterCine.Text = "Create";
+            this.btEnterCine.UseVisualStyleBackColor = true;
+            this.btEnterCine.Click += new System.EventHandler(this.btEnterCine_Click);
+            // 
+            // tbCineSalas
+            // 
+            this.tbCineSalas.Location = new System.Drawing.Point(229, 323);
+            this.tbCineSalas.Name = "tbCineSalas";
+            this.tbCineSalas.Size = new System.Drawing.Size(279, 22);
+            this.tbCineSalas.TabIndex = 9;
+            // 
+            // tbCineHor
+            // 
+            this.tbCineHor.Location = new System.Drawing.Point(230, 248);
+            this.tbCineHor.Name = "tbCineHor";
+            this.tbCineHor.Size = new System.Drawing.Size(279, 22);
+            this.tbCineHor.TabIndex = 8;
+            // 
+            // tbCineID
+            // 
+            this.tbCineID.Location = new System.Drawing.Point(230, 189);
+            this.tbCineID.Name = "tbCineID";
+            this.tbCineID.Size = new System.Drawing.Size(279, 22);
+            this.tbCineID.TabIndex = 7;
+            // 
+            // tbCineOwner
+            // 
+            this.tbCineOwner.Location = new System.Drawing.Point(230, 131);
+            this.tbCineOwner.Name = "tbCineOwner";
+            this.tbCineOwner.Size = new System.Drawing.Size(279, 22);
+            this.tbCineOwner.TabIndex = 6;
+            // 
+            // tbCineName
+            // 
+            this.tbCineName.Location = new System.Drawing.Point(230, 67);
+            this.tbCineName.Name = "tbCineName";
+            this.tbCineName.Size = new System.Drawing.Size(279, 22);
+            this.tbCineName.TabIndex = 5;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label9.Location = new System.Drawing.Point(231, 227);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(105, 17);
+            this.label9.TabIndex = 4;
+            this.label9.Text = "Horario de cine";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label8.Location = new System.Drawing.Point(231, 297);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(115, 17);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Numero de salas";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label7.Location = new System.Drawing.Point(231, 104);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(102, 17);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Owner del cine";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label6.Location = new System.Drawing.Point(231, 169);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 17);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "ID del cine";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label5.Location = new System.Drawing.Point(231, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(111, 17);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Nombre del cine";
+            // 
+            // panelRec
+            // 
+            this.panelRec.Controls.Add(this.labelRec);
+            this.panelRec.Controls.Add(this.tbRecOwner);
+            this.panelRec.Controls.Add(this.tbRecID);
+            this.panelRec.Controls.Add(this.tbRecType);
+            this.panelRec.Controls.Add(this.tbRecHor);
+            this.panelRec.Controls.Add(this.tbRecName);
+            this.panelRec.Controls.Add(this.label19);
+            this.panelRec.Controls.Add(this.label18);
+            this.panelRec.Controls.Add(this.label17);
+            this.panelRec.Controls.Add(this.label16);
+            this.panelRec.Controls.Add(this.label15);
+            this.panelRec.Controls.Add(this.EnterRec);
+            this.panelRec.Controls.Add(this.BackRec);
+            this.panelRec.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelRec.Location = new System.Drawing.Point(0, 0);
+            this.panelRec.Name = "panelRec";
+            this.panelRec.Size = new System.Drawing.Size(801, 468);
+            this.panelRec.TabIndex = 0;
+            this.panelRec.Visible = false;
+            // 
+            // labelRec
+            // 
+            this.labelRec.AutoSize = true;
+            this.labelRec.Location = new System.Drawing.Point(291, 384);
+            this.labelRec.Name = "labelRec";
+            this.labelRec.Size = new System.Drawing.Size(0, 17);
+            this.labelRec.TabIndex = 12;
+            this.labelRec.Visible = false;
+            // 
+            // tbRecOwner
+            // 
+            this.tbRecOwner.Location = new System.Drawing.Point(294, 139);
+            this.tbRecOwner.Name = "tbRecOwner";
+            this.tbRecOwner.Size = new System.Drawing.Size(278, 22);
+            this.tbRecOwner.TabIndex = 11;
+            // 
+            // tbRecID
+            // 
+            this.tbRecID.Location = new System.Drawing.Point(294, 200);
+            this.tbRecID.Name = "tbRecID";
+            this.tbRecID.Size = new System.Drawing.Size(278, 22);
+            this.tbRecID.TabIndex = 10;
+            // 
+            // tbRecType
+            // 
+            this.tbRecType.Location = new System.Drawing.Point(294, 316);
+            this.tbRecType.Name = "tbRecType";
+            this.tbRecType.Size = new System.Drawing.Size(278, 22);
+            this.tbRecType.TabIndex = 9;
+            // 
+            // tbRecHor
+            // 
+            this.tbRecHor.Location = new System.Drawing.Point(294, 260);
+            this.tbRecHor.Name = "tbRecHor";
+            this.tbRecHor.Size = new System.Drawing.Size(278, 22);
+            this.tbRecHor.TabIndex = 8;
+            // 
+            // tbRecName
+            // 
+            this.tbRecName.Location = new System.Drawing.Point(294, 82);
+            this.tbRecName.Name = "tbRecName";
+            this.tbRecName.Size = new System.Drawing.Size(278, 22);
+            this.tbRecName.TabIndex = 7;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label19.Location = new System.Drawing.Point(291, 119);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(151, 17);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "Owner de recreacional";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label18.Location = new System.Drawing.Point(291, 180);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(123, 17);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "ID de recreacional";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label17.Location = new System.Drawing.Point(291, 240);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(157, 17);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Horario de recreacional";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label16.Location = new System.Drawing.Point(291, 296);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(138, 17);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Tipo de recreacional";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label15.Location = new System.Drawing.Point(291, 62);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(160, 17);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Nombre de recreacional";
+            // 
+            // EnterRec
+            // 
+            this.EnterRec.Location = new System.Drawing.Point(497, 355);
+            this.EnterRec.Name = "EnterRec";
+            this.EnterRec.Size = new System.Drawing.Size(75, 23);
+            this.EnterRec.TabIndex = 1;
+            this.EnterRec.Text = "Create";
+            this.EnterRec.UseVisualStyleBackColor = true;
+            this.EnterRec.Click += new System.EventHandler(this.EnterRec_Click);
+            // 
+            // BackRec
+            // 
+            this.BackRec.Location = new System.Drawing.Point(283, 412);
+            this.BackRec.Name = "BackRec";
+            this.BackRec.Size = new System.Drawing.Size(75, 23);
+            this.BackRec.TabIndex = 0;
+            this.BackRec.Text = "BACK";
+            this.BackRec.UseVisualStyleBackColor = true;
+            this.BackRec.Click += new System.EventHandler(this.BackRec_Click);
+            // 
+            // panelResto
+            // 
+            this.panelResto.Controls.Add(this.labelRest);
+            this.panelResto.Controls.Add(this.RestBack);
+            this.panelResto.Controls.Add(this.RestEnter);
+            this.panelResto.Controls.Add(this.cbRestExc);
+            this.panelResto.Controls.Add(this.tbRestOwner);
+            this.panelResto.Controls.Add(this.tbRestHor);
+            this.panelResto.Controls.Add(this.tbRestID);
+            this.panelResto.Controls.Add(this.tbRestName);
+            this.panelResto.Controls.Add(this.label14);
+            this.panelResto.Controls.Add(this.label13);
+            this.panelResto.Controls.Add(this.label12);
+            this.panelResto.Controls.Add(this.label11);
+            this.panelResto.Controls.Add(this.label10);
+            this.panelResto.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelResto.Location = new System.Drawing.Point(0, 0);
+            this.panelResto.Name = "panelResto";
+            this.panelResto.Size = new System.Drawing.Size(801, 468);
+            this.panelResto.TabIndex = 0;
+            this.panelResto.Visible = false;
+            // 
+            // labelRest
+            // 
+            this.labelRest.AutoSize = true;
+            this.labelRest.Location = new System.Drawing.Point(251, 396);
+            this.labelRest.Name = "labelRest";
+            this.labelRest.Size = new System.Drawing.Size(0, 17);
+            this.labelRest.TabIndex = 12;
+            this.labelRest.Visible = false;
+            // 
+            // RestBack
+            // 
+            this.RestBack.Location = new System.Drawing.Point(246, 423);
+            this.RestBack.Name = "RestBack";
+            this.RestBack.Size = new System.Drawing.Size(75, 23);
+            this.RestBack.TabIndex = 11;
+            this.RestBack.Text = "BACK";
+            this.RestBack.UseVisualStyleBackColor = true;
+            this.RestBack.Click += new System.EventHandler(this.RestBack_Click);
+            // 
+            // RestEnter
+            // 
+            this.RestEnter.Location = new System.Drawing.Point(451, 365);
+            this.RestEnter.Name = "RestEnter";
+            this.RestEnter.Size = new System.Drawing.Size(75, 23);
+            this.RestEnter.TabIndex = 10;
+            this.RestEnter.Text = "Create";
+            this.RestEnter.UseVisualStyleBackColor = true;
+            this.RestEnter.Click += new System.EventHandler(this.RestEnter_Click);
+            // 
+            // cbRestExc
+            // 
+            this.cbRestExc.AutoSize = true;
+            this.cbRestExc.Location = new System.Drawing.Point(256, 332);
+            this.cbRestExc.Name = "cbRestExc";
+            this.cbRestExc.Size = new System.Drawing.Size(81, 21);
+            this.cbRestExc.TabIndex = 9;
+            this.cbRestExc.Text = "Si, tiene";
+            this.cbRestExc.UseVisualStyleBackColor = true;
+            // 
+            // tbRestOwner
+            // 
+            this.tbRestOwner.Location = new System.Drawing.Point(254, 159);
+            this.tbRestOwner.Name = "tbRestOwner";
+            this.tbRestOwner.Size = new System.Drawing.Size(267, 22);
+            this.tbRestOwner.TabIndex = 8;
+            // 
+            // tbRestHor
+            // 
+            this.tbRestHor.Location = new System.Drawing.Point(254, 268);
+            this.tbRestHor.Name = "tbRestHor";
+            this.tbRestHor.Size = new System.Drawing.Size(267, 22);
+            this.tbRestHor.TabIndex = 7;
+            // 
+            // tbRestID
+            // 
+            this.tbRestID.Location = new System.Drawing.Point(254, 215);
+            this.tbRestID.Name = "tbRestID";
+            this.tbRestID.Size = new System.Drawing.Size(267, 22);
+            this.tbRestID.TabIndex = 6;
+            // 
+            // tbRestName
+            // 
+            this.tbRestName.Location = new System.Drawing.Point(254, 101);
+            this.tbRestName.Name = "tbRestName";
+            this.tbRestName.Size = new System.Drawing.Size(267, 22);
+            this.tbRestName.TabIndex = 5;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label14.Location = new System.Drawing.Point(258, 305);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(165, 17);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "Tiene mesas exclusivas?";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label13.Location = new System.Drawing.Point(258, 248);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(152, 17);
+            this.label13.TabIndex = 3;
+            this.label13.Text = "Horario del Restaurant";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label12.Location = new System.Drawing.Point(256, 191);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(118, 17);
+            this.label12.TabIndex = 2;
+            this.label12.Text = "ID del Restaurant";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label11.Location = new System.Drawing.Point(256, 136);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(146, 17);
+            this.label11.TabIndex = 1;
+            this.label11.Text = "Owner del Restaurant";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label10.Location = new System.Drawing.Point(256, 75);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(155, 17);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Nombre del Restaurant";
+            // 
+            // panelTienda
+            // 
+            this.panelTienda.Controls.Add(this.labelTiendaCr);
+            this.panelTienda.Controls.Add(this.backCrTienda);
+            this.panelTienda.Controls.Add(this.CreateTiendaEnter);
+            this.panelTienda.Controls.Add(this.tbTiendaOwner);
+            this.panelTienda.Controls.Add(this.tbTiendaID);
+            this.panelTienda.Controls.Add(this.tbTiendaCat);
+            this.panelTienda.Controls.Add(this.tbTiendaHor);
+            this.panelTienda.Controls.Add(this.tbTiendaName);
+            this.panelTienda.Controls.Add(this.ownerTienda);
+            this.panelTienda.Controls.Add(this.IDTienda);
+            this.panelTienda.Controls.Add(this.horarioTienda);
+            this.panelTienda.Controls.Add(this.catTienda);
+            this.panelTienda.Controls.Add(this.nomTienda);
+            this.panelTienda.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelTienda.Location = new System.Drawing.Point(0, 0);
+            this.panelTienda.Name = "panelTienda";
+            this.panelTienda.Size = new System.Drawing.Size(801, 468);
+            this.panelTienda.TabIndex = 6;
+            this.panelTienda.Visible = false;
+            // 
+            // labelTiendaCr
+            // 
+            this.labelTiendaCr.AutoSize = true;
+            this.labelTiendaCr.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTiendaCr.Location = new System.Drawing.Point(244, 339);
+            this.labelTiendaCr.Name = "labelTiendaCr";
+            this.labelTiendaCr.Size = new System.Drawing.Size(0, 17);
+            this.labelTiendaCr.TabIndex = 12;
+            this.labelTiendaCr.Visible = false;
+            // 
+            // backCrTienda
+            // 
+            this.backCrTienda.Location = new System.Drawing.Point(217, 423);
+            this.backCrTienda.Name = "backCrTienda";
+            this.backCrTienda.Size = new System.Drawing.Size(75, 23);
+            this.backCrTienda.TabIndex = 11;
+            this.backCrTienda.Text = "BACK";
+            this.backCrTienda.UseVisualStyleBackColor = true;
+            this.backCrTienda.Click += new System.EventHandler(this.backCrTienda_Click);
+            // 
+            // CreateTiendaEnter
+            // 
+            this.CreateTiendaEnter.Location = new System.Drawing.Point(410, 301);
+            this.CreateTiendaEnter.Name = "CreateTiendaEnter";
+            this.CreateTiendaEnter.Size = new System.Drawing.Size(75, 23);
+            this.CreateTiendaEnter.TabIndex = 10;
+            this.CreateTiendaEnter.Text = "Create";
+            this.CreateTiendaEnter.UseVisualStyleBackColor = true;
+            this.CreateTiendaEnter.Click += new System.EventHandler(this.CreateTiendaEnter_Click);
+            // 
+            // tbTiendaOwner
+            // 
+            this.tbTiendaOwner.Location = new System.Drawing.Point(217, 109);
+            this.tbTiendaOwner.Name = "tbTiendaOwner";
+            this.tbTiendaOwner.Size = new System.Drawing.Size(267, 22);
+            this.tbTiendaOwner.TabIndex = 9;
+            // 
+            // tbTiendaID
+            // 
+            this.tbTiendaID.Location = new System.Drawing.Point(217, 167);
+            this.tbTiendaID.Name = "tbTiendaID";
+            this.tbTiendaID.Size = new System.Drawing.Size(267, 22);
+            this.tbTiendaID.TabIndex = 8;
+            // 
+            // tbTiendaCat
+            // 
+            this.tbTiendaCat.Location = new System.Drawing.Point(218, 273);
+            this.tbTiendaCat.Name = "tbTiendaCat";
+            this.tbTiendaCat.Size = new System.Drawing.Size(267, 22);
+            this.tbTiendaCat.TabIndex = 7;
+            // 
+            // tbTiendaHor
+            // 
+            this.tbTiendaHor.Location = new System.Drawing.Point(217, 219);
+            this.tbTiendaHor.Name = "tbTiendaHor";
+            this.tbTiendaHor.Size = new System.Drawing.Size(267, 22);
+            this.tbTiendaHor.TabIndex = 6;
+            // 
+            // tbTiendaName
+            // 
+            this.tbTiendaName.Location = new System.Drawing.Point(217, 50);
+            this.tbTiendaName.Name = "tbTiendaName";
+            this.tbTiendaName.Size = new System.Drawing.Size(267, 22);
+            this.tbTiendaName.TabIndex = 5;
+            // 
+            // ownerTienda
+            // 
+            this.ownerTienda.AutoSize = true;
+            this.ownerTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ownerTienda.Location = new System.Drawing.Point(218, 89);
+            this.ownerTienda.Name = "ownerTienda";
+            this.ownerTienda.Size = new System.Drawing.Size(127, 17);
+            this.ownerTienda.TabIndex = 4;
+            this.ownerTienda.Text = "Owner de la tienda";
+            // 
+            // IDTienda
+            // 
+            this.IDTienda.AutoSize = true;
+            this.IDTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.IDTienda.Location = new System.Drawing.Point(218, 147);
+            this.IDTienda.Name = "IDTienda";
+            this.IDTienda.Size = new System.Drawing.Size(99, 17);
+            this.IDTienda.TabIndex = 3;
+            this.IDTienda.Text = "ID de la tienda";
+            // 
+            // horarioTienda
+            // 
+            this.horarioTienda.AutoSize = true;
+            this.horarioTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.horarioTienda.Location = new System.Drawing.Point(218, 199);
+            this.horarioTienda.Name = "horarioTienda";
+            this.horarioTienda.Size = new System.Drawing.Size(133, 17);
+            this.horarioTienda.TabIndex = 2;
+            this.horarioTienda.Text = "Horario de la tienda";
+            // 
+            // catTienda
+            // 
+            this.catTienda.AutoSize = true;
+            this.catTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.catTienda.Location = new System.Drawing.Point(218, 253);
+            this.catTienda.Name = "catTienda";
+            this.catTienda.Size = new System.Drawing.Size(164, 17);
+            this.catTienda.TabIndex = 1;
+            this.catTienda.Text = "Categoria(s) de la tienda";
+            // 
+            // nomTienda
+            // 
+            this.nomTienda.AutoSize = true;
+            this.nomTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.nomTienda.Location = new System.Drawing.Point(218, 28);
+            this.nomTienda.Name = "nomTienda";
+            this.nomTienda.Size = new System.Drawing.Size(136, 17);
+            this.nomTienda.TabIndex = 0;
+            this.nomTienda.Text = "Nombre de la tienda";
             // 
             // salirCreate
             // 
@@ -266,6 +814,7 @@
             this.busqTB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.busqTB.Location = new System.Drawing.Point(135, 202);
             this.busqTB.Name = "busqTB";
+            this.busqTB.ReadOnly = true;
             this.busqTB.Size = new System.Drawing.Size(466, 139);
             this.busqTB.TabIndex = 4;
             this.busqTB.Text = "";
@@ -310,554 +859,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "BUSQUEDA DE LOCAL";
             // 
-            // panelTienda
-            // 
-            this.panelTienda.Controls.Add(this.labelTiendaCr);
-            this.panelTienda.Controls.Add(this.backCrTienda);
-            this.panelTienda.Controls.Add(this.CreateTiendaEnter);
-            this.panelTienda.Controls.Add(this.tbTiendaOwner);
-            this.panelTienda.Controls.Add(this.tbTiendaID);
-            this.panelTienda.Controls.Add(this.tbTiendaCat);
-            this.panelTienda.Controls.Add(this.tbTiendaHor);
-            this.panelTienda.Controls.Add(this.tbTiendaName);
-            this.panelTienda.Controls.Add(this.ownerTienda);
-            this.panelTienda.Controls.Add(this.IDTienda);
-            this.panelTienda.Controls.Add(this.horarioTienda);
-            this.panelTienda.Controls.Add(this.catTienda);
-            this.panelTienda.Controls.Add(this.nomTienda);
-            this.panelTienda.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelTienda.Location = new System.Drawing.Point(0, 0);
-            this.panelTienda.Name = "panelTienda";
-            this.panelTienda.Size = new System.Drawing.Size(801, 468);
-            this.panelTienda.TabIndex = 6;
-            this.panelTienda.Visible = false;
-            // 
-            // panelResto
-            // 
-            this.panelResto.Controls.Add(this.labelRest);
-            this.panelResto.Controls.Add(this.RestBack);
-            this.panelResto.Controls.Add(this.RestEnter);
-            this.panelResto.Controls.Add(this.cbRestExc);
-            this.panelResto.Controls.Add(this.tbRestOwner);
-            this.panelResto.Controls.Add(this.tbRestHor);
-            this.panelResto.Controls.Add(this.tbRestID);
-            this.panelResto.Controls.Add(this.tbRestName);
-            this.panelResto.Controls.Add(this.label14);
-            this.panelResto.Controls.Add(this.label13);
-            this.panelResto.Controls.Add(this.label12);
-            this.panelResto.Controls.Add(this.label11);
-            this.panelResto.Controls.Add(this.label10);
-            this.panelResto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelResto.Location = new System.Drawing.Point(0, 0);
-            this.panelResto.Name = "panelResto";
-            this.panelResto.Size = new System.Drawing.Size(801, 468);
-            this.panelResto.TabIndex = 0;
-            this.panelResto.Visible = false;
-            // 
-            // panelRec
-            // 
-            this.panelRec.Controls.Add(this.labelRec);
-            this.panelRec.Controls.Add(this.tbRecOwner);
-            this.panelRec.Controls.Add(this.tbRecID);
-            this.panelRec.Controls.Add(this.tbRecType);
-            this.panelRec.Controls.Add(this.tbRecHor);
-            this.panelRec.Controls.Add(this.tbRecName);
-            this.panelRec.Controls.Add(this.label19);
-            this.panelRec.Controls.Add(this.label18);
-            this.panelRec.Controls.Add(this.label17);
-            this.panelRec.Controls.Add(this.label16);
-            this.panelRec.Controls.Add(this.label15);
-            this.panelRec.Controls.Add(this.EnterRec);
-            this.panelRec.Controls.Add(this.BackRec);
-            this.panelRec.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelRec.Location = new System.Drawing.Point(0, 0);
-            this.panelRec.Name = "panelRec";
-            this.panelRec.Size = new System.Drawing.Size(801, 468);
-            this.panelRec.TabIndex = 0;
-            this.panelRec.Visible = false;
-            // 
-            // nomTienda
-            // 
-            this.nomTienda.AutoSize = true;
-            this.nomTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.nomTienda.Location = new System.Drawing.Point(218, 28);
-            this.nomTienda.Name = "nomTienda";
-            this.nomTienda.Size = new System.Drawing.Size(136, 17);
-            this.nomTienda.TabIndex = 0;
-            this.nomTienda.Text = "Nombre de la tienda";
-            // 
-            // catTienda
-            // 
-            this.catTienda.AutoSize = true;
-            this.catTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.catTienda.Location = new System.Drawing.Point(218, 253);
-            this.catTienda.Name = "catTienda";
-            this.catTienda.Size = new System.Drawing.Size(164, 17);
-            this.catTienda.TabIndex = 1;
-            this.catTienda.Text = "Categoria(s) de la tienda";
-            // 
-            // horarioTienda
-            // 
-            this.horarioTienda.AutoSize = true;
-            this.horarioTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.horarioTienda.Location = new System.Drawing.Point(218, 199);
-            this.horarioTienda.Name = "horarioTienda";
-            this.horarioTienda.Size = new System.Drawing.Size(133, 17);
-            this.horarioTienda.TabIndex = 2;
-            this.horarioTienda.Text = "Horario de la tienda";
-            // 
-            // IDTienda
-            // 
-            this.IDTienda.AutoSize = true;
-            this.IDTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.IDTienda.Location = new System.Drawing.Point(218, 147);
-            this.IDTienda.Name = "IDTienda";
-            this.IDTienda.Size = new System.Drawing.Size(99, 17);
-            this.IDTienda.TabIndex = 3;
-            this.IDTienda.Text = "ID de la tienda";
-            // 
-            // ownerTienda
-            // 
-            this.ownerTienda.AutoSize = true;
-            this.ownerTienda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ownerTienda.Location = new System.Drawing.Point(218, 89);
-            this.ownerTienda.Name = "ownerTienda";
-            this.ownerTienda.Size = new System.Drawing.Size(127, 17);
-            this.ownerTienda.TabIndex = 4;
-            this.ownerTienda.Text = "Owner de la tienda";
-            // 
-            // tbTiendaName
-            // 
-            this.tbTiendaName.Location = new System.Drawing.Point(217, 50);
-            this.tbTiendaName.Name = "tbTiendaName";
-            this.tbTiendaName.Size = new System.Drawing.Size(267, 22);
-            this.tbTiendaName.TabIndex = 5;
-            // 
-            // tbTiendaHor
-            // 
-            this.tbTiendaHor.Location = new System.Drawing.Point(217, 219);
-            this.tbTiendaHor.Name = "tbTiendaHor";
-            this.tbTiendaHor.Size = new System.Drawing.Size(267, 22);
-            this.tbTiendaHor.TabIndex = 6;
-            // 
-            // tbTiendaCat
-            // 
-            this.tbTiendaCat.Location = new System.Drawing.Point(218, 273);
-            this.tbTiendaCat.Name = "tbTiendaCat";
-            this.tbTiendaCat.Size = new System.Drawing.Size(267, 22);
-            this.tbTiendaCat.TabIndex = 7;
-            // 
-            // tbTiendaID
-            // 
-            this.tbTiendaID.Location = new System.Drawing.Point(217, 167);
-            this.tbTiendaID.Name = "tbTiendaID";
-            this.tbTiendaID.Size = new System.Drawing.Size(267, 22);
-            this.tbTiendaID.TabIndex = 8;
-            // 
-            // tbTiendaOwner
-            // 
-            this.tbTiendaOwner.Location = new System.Drawing.Point(217, 109);
-            this.tbTiendaOwner.Name = "tbTiendaOwner";
-            this.tbTiendaOwner.Size = new System.Drawing.Size(267, 22);
-            this.tbTiendaOwner.TabIndex = 9;
-            // 
-            // CreateTiendaEnter
-            // 
-            this.CreateTiendaEnter.Location = new System.Drawing.Point(410, 301);
-            this.CreateTiendaEnter.Name = "CreateTiendaEnter";
-            this.CreateTiendaEnter.Size = new System.Drawing.Size(75, 23);
-            this.CreateTiendaEnter.TabIndex = 10;
-            this.CreateTiendaEnter.Text = "Create";
-            this.CreateTiendaEnter.UseVisualStyleBackColor = true;
-            this.CreateTiendaEnter.Click += new System.EventHandler(this.CreateTiendaEnter_Click);
-            // 
-            // backCrTienda
-            // 
-            this.backCrTienda.Location = new System.Drawing.Point(217, 423);
-            this.backCrTienda.Name = "backCrTienda";
-            this.backCrTienda.Size = new System.Drawing.Size(75, 23);
-            this.backCrTienda.TabIndex = 11;
-            this.backCrTienda.Text = "BACK";
-            this.backCrTienda.UseVisualStyleBackColor = true;
-            this.backCrTienda.Click += new System.EventHandler(this.backCrTienda_Click);
-            // 
-            // labelTiendaCr
-            // 
-            this.labelTiendaCr.AutoSize = true;
-            this.labelTiendaCr.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTiendaCr.Location = new System.Drawing.Point(244, 339);
-            this.labelTiendaCr.Name = "labelTiendaCr";
-            this.labelTiendaCr.Size = new System.Drawing.Size(0, 17);
-            this.labelTiendaCr.TabIndex = 12;
-            this.labelTiendaCr.Visible = false;
-            // 
-            // panelCine
-            // 
-            this.panelCine.Controls.Add(this.labelCine);
-            this.panelCine.Controls.Add(this.BackCine);
-            this.panelCine.Controls.Add(this.btEnterCine);
-            this.panelCine.Controls.Add(this.tbCineSalas);
-            this.panelCine.Controls.Add(this.tbCineHor);
-            this.panelCine.Controls.Add(this.tbCineID);
-            this.panelCine.Controls.Add(this.tbCineOwner);
-            this.panelCine.Controls.Add(this.tbCineName);
-            this.panelCine.Controls.Add(this.label9);
-            this.panelCine.Controls.Add(this.label8);
-            this.panelCine.Controls.Add(this.label7);
-            this.panelCine.Controls.Add(this.label6);
-            this.panelCine.Controls.Add(this.label5);
-            this.panelCine.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelCine.Location = new System.Drawing.Point(0, 0);
-            this.panelCine.Name = "panelCine";
-            this.panelCine.Size = new System.Drawing.Size(801, 468);
-            this.panelCine.TabIndex = 7;
-            this.panelCine.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label5.Location = new System.Drawing.Point(231, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(111, 17);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Nombre del cine";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label6.Location = new System.Drawing.Point(231, 169);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(74, 17);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "ID del cine";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label7.Location = new System.Drawing.Point(231, 104);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 17);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Owner del cine";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label8.Location = new System.Drawing.Point(231, 297);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(115, 17);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Numero de salas";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label9.Location = new System.Drawing.Point(231, 227);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(105, 17);
-            this.label9.TabIndex = 4;
-            this.label9.Text = "Horario de cine";
-            // 
-            // tbCineName
-            // 
-            this.tbCineName.Location = new System.Drawing.Point(230, 67);
-            this.tbCineName.Name = "tbCineName";
-            this.tbCineName.Size = new System.Drawing.Size(279, 22);
-            this.tbCineName.TabIndex = 5;
-            // 
-            // tbCineOwner
-            // 
-            this.tbCineOwner.Location = new System.Drawing.Point(230, 131);
-            this.tbCineOwner.Name = "tbCineOwner";
-            this.tbCineOwner.Size = new System.Drawing.Size(279, 22);
-            this.tbCineOwner.TabIndex = 6;
-            // 
-            // tbCineID
-            // 
-            this.tbCineID.Location = new System.Drawing.Point(230, 189);
-            this.tbCineID.Name = "tbCineID";
-            this.tbCineID.Size = new System.Drawing.Size(279, 22);
-            this.tbCineID.TabIndex = 7;
-            // 
-            // tbCineHor
-            // 
-            this.tbCineHor.Location = new System.Drawing.Point(230, 248);
-            this.tbCineHor.Name = "tbCineHor";
-            this.tbCineHor.Size = new System.Drawing.Size(279, 22);
-            this.tbCineHor.TabIndex = 8;
-            // 
-            // tbCineSalas
-            // 
-            this.tbCineSalas.Location = new System.Drawing.Point(229, 323);
-            this.tbCineSalas.Name = "tbCineSalas";
-            this.tbCineSalas.Size = new System.Drawing.Size(279, 22);
-            this.tbCineSalas.TabIndex = 9;
-            // 
-            // btEnterCine
-            // 
-            this.btEnterCine.Location = new System.Drawing.Point(434, 359);
-            this.btEnterCine.Name = "btEnterCine";
-            this.btEnterCine.Size = new System.Drawing.Size(75, 23);
-            this.btEnterCine.TabIndex = 10;
-            this.btEnterCine.Text = "Create";
-            this.btEnterCine.UseVisualStyleBackColor = true;
-            this.btEnterCine.Click += new System.EventHandler(this.btEnterCine_Click);
-            // 
-            // BackCine
-            // 
-            this.BackCine.Location = new System.Drawing.Point(228, 410);
-            this.BackCine.Name = "BackCine";
-            this.BackCine.Size = new System.Drawing.Size(75, 23);
-            this.BackCine.TabIndex = 11;
-            this.BackCine.Text = "BACK";
-            this.BackCine.UseVisualStyleBackColor = true;
-            this.BackCine.Click += new System.EventHandler(this.BackCine_Click);
-            // 
-            // labelCine
-            // 
-            this.labelCine.AutoSize = true;
-            this.labelCine.Location = new System.Drawing.Point(231, 360);
-            this.labelCine.Name = "labelCine";
-            this.labelCine.Size = new System.Drawing.Size(0, 17);
-            this.labelCine.TabIndex = 12;
-            this.labelCine.Visible = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label10.Location = new System.Drawing.Point(256, 75);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(155, 17);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Nombre del Restaurant";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label11.Location = new System.Drawing.Point(256, 136);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(146, 17);
-            this.label11.TabIndex = 1;
-            this.label11.Text = "Owner del Restaurant";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label12.Location = new System.Drawing.Point(256, 191);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(118, 17);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "ID del Restaurant";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label13.Location = new System.Drawing.Point(258, 248);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(152, 17);
-            this.label13.TabIndex = 3;
-            this.label13.Text = "Horario del Restaurant";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label14.Location = new System.Drawing.Point(258, 305);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(165, 17);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Tiene mesas exclusivas?";
-            // 
-            // tbRestName
-            // 
-            this.tbRestName.Location = new System.Drawing.Point(254, 101);
-            this.tbRestName.Name = "tbRestName";
-            this.tbRestName.Size = new System.Drawing.Size(267, 22);
-            this.tbRestName.TabIndex = 5;
-            // 
-            // tbRestID
-            // 
-            this.tbRestID.Location = new System.Drawing.Point(254, 215);
-            this.tbRestID.Name = "tbRestID";
-            this.tbRestID.Size = new System.Drawing.Size(267, 22);
-            this.tbRestID.TabIndex = 6;
-            // 
-            // tbRestHor
-            // 
-            this.tbRestHor.Location = new System.Drawing.Point(254, 268);
-            this.tbRestHor.Name = "tbRestHor";
-            this.tbRestHor.Size = new System.Drawing.Size(267, 22);
-            this.tbRestHor.TabIndex = 7;
-            // 
-            // tbRestOwner
-            // 
-            this.tbRestOwner.Location = new System.Drawing.Point(254, 159);
-            this.tbRestOwner.Name = "tbRestOwner";
-            this.tbRestOwner.Size = new System.Drawing.Size(267, 22);
-            this.tbRestOwner.TabIndex = 8;
-            // 
-            // cbRestExc
-            // 
-            this.cbRestExc.AutoSize = true;
-            this.cbRestExc.Location = new System.Drawing.Point(256, 332);
-            this.cbRestExc.Name = "cbRestExc";
-            this.cbRestExc.Size = new System.Drawing.Size(81, 21);
-            this.cbRestExc.TabIndex = 9;
-            this.cbRestExc.Text = "Si, tiene";
-            this.cbRestExc.UseVisualStyleBackColor = true;
-            // 
-            // RestEnter
-            // 
-            this.RestEnter.Location = new System.Drawing.Point(451, 365);
-            this.RestEnter.Name = "RestEnter";
-            this.RestEnter.Size = new System.Drawing.Size(75, 23);
-            this.RestEnter.TabIndex = 10;
-            this.RestEnter.Text = "Create";
-            this.RestEnter.UseVisualStyleBackColor = true;
-            this.RestEnter.Click += new System.EventHandler(this.RestEnter_Click);
-            // 
-            // RestBack
-            // 
-            this.RestBack.Location = new System.Drawing.Point(246, 423);
-            this.RestBack.Name = "RestBack";
-            this.RestBack.Size = new System.Drawing.Size(75, 23);
-            this.RestBack.TabIndex = 11;
-            this.RestBack.Text = "BACK";
-            this.RestBack.UseVisualStyleBackColor = true;
-            this.RestBack.Click += new System.EventHandler(this.RestBack_Click);
-            // 
-            // labelRest
-            // 
-            this.labelRest.AutoSize = true;
-            this.labelRest.Location = new System.Drawing.Point(251, 396);
-            this.labelRest.Name = "labelRest";
-            this.labelRest.Size = new System.Drawing.Size(0, 17);
-            this.labelRest.TabIndex = 12;
-            this.labelRest.Visible = false;
-            // 
-            // BackRec
-            // 
-            this.BackRec.Location = new System.Drawing.Point(283, 412);
-            this.BackRec.Name = "BackRec";
-            this.BackRec.Size = new System.Drawing.Size(75, 23);
-            this.BackRec.TabIndex = 0;
-            this.BackRec.Text = "BACK";
-            this.BackRec.UseVisualStyleBackColor = true;
-            this.BackRec.Click += new System.EventHandler(this.BackRec_Click);
-            // 
-            // EnterRec
-            // 
-            this.EnterRec.Location = new System.Drawing.Point(497, 355);
-            this.EnterRec.Name = "EnterRec";
-            this.EnterRec.Size = new System.Drawing.Size(75, 23);
-            this.EnterRec.TabIndex = 1;
-            this.EnterRec.Text = "Create";
-            this.EnterRec.UseVisualStyleBackColor = true;
-            this.EnterRec.Click += new System.EventHandler(this.EnterRec_Click);
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label15.Location = new System.Drawing.Point(291, 62);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(160, 17);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Nombre de recreacional";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label16.Location = new System.Drawing.Point(291, 296);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(138, 17);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Tipo de recreacional";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label17.Location = new System.Drawing.Point(291, 240);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(157, 17);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Horario de recreacional";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label18.Location = new System.Drawing.Point(291, 180);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(123, 17);
-            this.label18.TabIndex = 5;
-            this.label18.Text = "ID de recreacional";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label19.Location = new System.Drawing.Point(291, 119);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(151, 17);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "Owner de recreacional";
-            // 
-            // tbRecName
-            // 
-            this.tbRecName.Location = new System.Drawing.Point(294, 82);
-            this.tbRecName.Name = "tbRecName";
-            this.tbRecName.Size = new System.Drawing.Size(278, 22);
-            this.tbRecName.TabIndex = 7;
-            // 
-            // tbRecHor
-            // 
-            this.tbRecHor.Location = new System.Drawing.Point(294, 260);
-            this.tbRecHor.Name = "tbRecHor";
-            this.tbRecHor.Size = new System.Drawing.Size(278, 22);
-            this.tbRecHor.TabIndex = 8;
-            // 
-            // tbRecType
-            // 
-            this.tbRecType.Location = new System.Drawing.Point(294, 316);
-            this.tbRecType.Name = "tbRecType";
-            this.tbRecType.Size = new System.Drawing.Size(278, 22);
-            this.tbRecType.TabIndex = 9;
-            // 
-            // tbRecID
-            // 
-            this.tbRecID.Location = new System.Drawing.Point(294, 200);
-            this.tbRecID.Name = "tbRecID";
-            this.tbRecID.Size = new System.Drawing.Size(278, 22);
-            this.tbRecID.TabIndex = 10;
-            // 
-            // tbRecOwner
-            // 
-            this.tbRecOwner.Location = new System.Drawing.Point(294, 139);
-            this.tbRecOwner.Name = "tbRecOwner";
-            this.tbRecOwner.Size = new System.Drawing.Size(278, 22);
-            this.tbRecOwner.TabIndex = 11;
-            // 
-            // labelRec
-            // 
-            this.labelRec.AutoSize = true;
-            this.labelRec.Location = new System.Drawing.Point(291, 384);
-            this.labelRec.Name = "labelRec";
-            this.labelRec.Size = new System.Drawing.Size(0, 17);
-            this.labelRec.TabIndex = 12;
-            this.labelRec.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -877,16 +878,16 @@
             this.Text = "Portal Shopping";
             this.panelCreate.ResumeLayout(false);
             this.panelCreate.PerformLayout();
-            this.panelBusq.ResumeLayout(false);
-            this.panelBusq.PerformLayout();
-            this.panelTienda.ResumeLayout(false);
-            this.panelTienda.PerformLayout();
-            this.panelResto.ResumeLayout(false);
-            this.panelResto.PerformLayout();
-            this.panelRec.ResumeLayout(false);
-            this.panelRec.PerformLayout();
             this.panelCine.ResumeLayout(false);
             this.panelCine.PerformLayout();
+            this.panelRec.ResumeLayout(false);
+            this.panelRec.PerformLayout();
+            this.panelResto.ResumeLayout(false);
+            this.panelResto.PerformLayout();
+            this.panelTienda.ResumeLayout(false);
+            this.panelTienda.PerformLayout();
+            this.panelBusq.ResumeLayout(false);
+            this.panelBusq.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

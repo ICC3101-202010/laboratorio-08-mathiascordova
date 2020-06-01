@@ -17,7 +17,7 @@ namespace Lab_08
 
         public override string GetLocal()
         {
-            return ("Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Tipo de recreacional:" + recType + "\n");
+            return ("RECREACIONAL"+"\n"+"Local: " + name + "\n" + "Owner: " + owner + "\n" + "Numero ID: " + shopID + "\n" + "Horarios: " + openHours + "\n" + "Tipo de recreacional:" + recType + "\n");
         }
     }
 }

@@ -116,6 +116,7 @@ namespace Lab_08
             {
                 busqTB.Text = "Por favor ingrese un nombre en el buscador";
             }
+            busqNombre.Text = "";
         }
 
         private void busqBack_Click(object sender, EventArgs e)
@@ -141,6 +142,11 @@ namespace Lab_08
                 tienda.SetLocal(tbTiendaName.Text, tbTiendaOwner.Text, tbTiendaID.Text, tbTiendaHor.Text);
                 tienda.SetCat(new List<string>() { tbTiendaCat.Text });
                 allLocales.Add(tienda);
+                tbTiendaName.Text = "";
+                tbTiendaOwner.Text = "";
+                tbTiendaID.Text = "";
+                tbTiendaHor.Text = "";
+                tbTiendaCat.Text = "";
             }
         }
 
@@ -171,6 +177,11 @@ namespace Lab_08
                 cine.SetLocal(tbCineName.Text, tbCineOwner.Text, tbCineID.Text, tbCineHor.Text);
                 cine.SetRooms(Convert.ToInt32(tbCineSalas.Text));
                 allLocales.Add(cine);
+                tbCineName.Text = "";
+                tbCineOwner.Text = "";
+                tbCineID.Text = "";
+                tbCineHor.Text = "";
+                tbCineSalas.Text = "";
             }
         }
 
@@ -201,6 +212,11 @@ namespace Lab_08
                 res.SetLocal(tbRestName.Text, tbRestOwner.Text, tbRestID.Text, tbRestHor.Text);
                 res.SetTables(cbRestExc.Checked);
                 allLocales.Add(res);
+                tbRestName.Text = "";
+                tbRestOwner.Text = "";
+                tbRestID.Text = "";
+                tbRestHor.Text = "";
+                cbRestExc.Checked = false;
             }
             
         }
@@ -245,6 +261,11 @@ namespace Lab_08
                 rec.SetLocal(tbRecName.Text, tbRecOwner.Text, tbRecID.Text, tbRecHor.Text);
                 rec.SetType(tbRecType.Text);
                 allLocales.Add(rec);
+                tbRecName.Text = "";
+                tbRecOwner.Text = "";
+                tbRecID.Text = "";
+                tbRecHor.Text = "";
+                tbRecType.Text = "";
             }
         }
     }
